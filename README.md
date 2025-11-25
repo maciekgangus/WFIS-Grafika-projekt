@@ -62,9 +62,6 @@ pip install -r requirements.txt
 
 ### 3. Uruchamianie aplikacji
 
-Po zainstalowaniu zależności
-
-```bash
 python3 main.py
 ```
 

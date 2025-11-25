@@ -1,4 +1,4 @@
-# Night City 3D Renderer
+# Night City 
 
 Render w czasie rzeczywistym 3D zbudowany w Pythonie, który generuje futurystyczną, oświetloną scenę "Night City".
 

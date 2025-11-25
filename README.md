@@ -61,16 +61,11 @@ python3 -m venv .venv
 source .venv/bin/activate
 
 # 2. Zainstaluj wymagane pakiety
-pip install glfw PyOpenGL PyOpenGL_accelerate PyGLM numpy Pillow
-
-# 3. Wygeneruj zasoby tekstur
-# Ten skrypt utworzy wszystkie niezbędne obrazy w katalogu textures/.
-python3 generate_assets.py
-```
+pip install -r requirements.txt 
 
 ### 3. Uruchamianie aplikacji
 
-Po zainstalowaniu zależności i wygenerowaniu zasobów można uruchomić główną aplikację:
+Po zainstalowaniu zależności
 
 ```bash
 python3 main.py

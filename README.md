@@ -10,17 +10,18 @@ Render w czasie rzeczywistym 3D zbudowany w Pythonie, który generuje futurystyc
 
 Poniżej znajdują się przykładowe zrzuty ekranu z działającego renderera.
 
----
-
-![Scena Night City 1](screenshot_20251125_012521.png)
-
----
-
-![Scena Night City 2](screenshot_20251125_013156.png)
+![Scena Night City 1](./screenshot_20251125_013156.png)
+*Widok na główną ulicę z proceduralnie generowanymi budynkami i dynamicznym oświetleniem.*
 
 ---
 
-![Scena Night City 2](screenshot_20251125_013244.png)
+![Scena Night City 2](./screenshot_20251125_013244.png)
+*Scena z efektami deszczu i odbiciami na powierzchni drogi.*
+
+---
+
+![Scena Night City 3](./screenshot_20251125_012521.png)
+*Inny widok miasta.*
 
 ---
 
@@ -38,7 +39,7 @@ Poniżej znajdują się przykładowe zrzuty ekranu z działającego renderera.
 *   **Python 3:** Główny język projektu.
 *   **PyOpenGL:** Biblioteka do programowania grafiki w OpenGL w Pythonie.
 *   **GLFW:** Biblioteka do tworzenia okien, kontekstów i zarządzania danymi wejściowymi.
-*   **GLM:** Biblioteka matematyczna do programowania grafiki.
+*   **PyGLM:** Biblioteka matematyczna do programowania grafiki.
 *   **NumPy:** Używana do operacji numerycznych, zwłaszcza do obsługi danych wierzchołków.
 *   **Pillow (PIL):** Używana do ładowania i manipulowania teksturami obrazów.
 
@@ -60,7 +61,7 @@ python3 -m venv .venv
 source .venv/bin/activate
 
 # 2. Zainstaluj wymagane pakiety
-pip install glfw PyOpenGL PyOpenGL_accelerate glm numpy Pillow
+pip install glfw PyOpenGL PyOpenGL_accelerate PyGLM numpy Pillow
 
 # 3. Wygeneruj zasoby tekstur
 # Ten skrypt utworzy wszystkie niezbędne obrazy w katalogu textures/.

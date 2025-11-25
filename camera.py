@@ -7,14 +7,14 @@ class Camera:
         self.world_up = up
         self.yaw = yaw
         self.pitch = pitch
-        
+
         self.front = glm.vec3(0.0, 0.0, -1.0)
         self.right = glm.vec3(0.0)
         self.up = glm.vec3(0.0)
-        
+
         self.movement_speed = 5.0
         self.mouse_sensitivity = 0.1
-        
+
         self.update_camera_vectors()
 
     def get_view_matrix(self):

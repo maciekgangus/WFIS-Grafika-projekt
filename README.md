@@ -1,6 +1,6 @@
 # Night City 3D Renderer
 
-Render w czasie rzeczywistym 3D zbudowany w Pythonie, który generuje futurystyczną, oświetloną neonami scenę "Night City". Projekt prezentuje różne techniki grafiki komputerowej, w tym generowanie proceduralne, dynamiczne oświetlenie, mapowanie cieni i efekty atmosferyczne.
+Render w czasie rzeczywistym 3D zbudowany w Pythonie, który generuje futurystyczną, oświetloną scenę "Night City".
 
 ## Autor
 
@@ -11,17 +11,14 @@ Render w czasie rzeczywistym 3D zbudowany w Pythonie, który generuje futurystyc
 Poniżej znajdują się przykładowe zrzuty ekranu z działającego renderera.
 
 ![Scena Night City 1](./screenshot_20251125_013156.png)
-*Widok na główną ulicę z proceduralnie generowanymi budynkami i dynamicznym oświetleniem.*
 
 ---
 
 ![Scena Night City 2](./screenshot_20251125_013244.png)
-*Scena z efektami deszczu i odbiciami na powierzchni drogi.*
 
 ---
 
 ![Scena Night City 3](./screenshot_20251125_012521.png)
-*Inny widok miasta.*
 
 ---
 
@@ -29,10 +26,10 @@ Poniżej znajdują się przykładowe zrzuty ekranu z działającego renderera.
 
 *   **Kamera pierwszoosobowa:** Lataj po scenie za pomocą klasycznej kamery w stylu FPS.
 *   **Generowanie proceduralne:** Budynki są generowane algorytmicznie, co za każdym razem tworzy unikalny układ miasta.
-*   **Dynamiczne oświetlenie:** Scena jest oświetlona latarniami ulicznymi i emisyjnymi teksturami, tworząc żywą, nocną atmosferę.
-*   **Mapowanie cieni:** Cienie rzucane przez obiekty w czasie rzeczywistym dodają głębi i realizmu.
+*   **Dynamiczne oświetlenie:** Scena jest oświetlona latarniami ulicznymi i emisyjnymi teksturami.
+*   **Mapowanie cieni:** Cienie rzucane są przez obiekty w czasie rzeczywistym.
 *   **Efekty atmosferyczne:** Symulacja deszczu i księżyc na niebie wzmacniają nastrój.
-*   **Teksturowane modele:** Wszystkie obiekty w scenie, od drogi po billboard, są oteksturowane w celu uzyskania szczegółowości.
+*   **Teksturowane modele:** Wszystkie obiekty w scenie, od drogi po billboard, są oteksturowane.
 
 ## Użyte technologie
 

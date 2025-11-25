@@ -60,7 +60,7 @@ source .venv/bin/activate
 # 2. Zainstaluj wymagane pakiety
 pip install -r requirements.txt 
 
-### 3. Uruchamianie aplikacji
+# 3. Uruchamianie aplikacji
 
 python3 main.py
 ```
